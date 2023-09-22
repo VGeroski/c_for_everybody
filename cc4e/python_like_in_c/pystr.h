@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct str
-{
+typedef struct str {
   int length; /* current length of data (string) */
   int alloc;  /* size of array to store data */
   char *data; /* pointer to char array */
